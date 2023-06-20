@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bandera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 350px;
+    top:200px;
+    width: 100vh;
+}
+
+.barras{
+    width: 100px;
+    height: 300px;
+
+}
+
+.barras1{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    animation: color1 4s ease-in-out 2s infinite;
+}
+
+.barras2{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    animation: color1 4s ease-in-out 2.5s infinite;
+}
+.barras3{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    animation: color1 4s ease-in-out 3s infinite;
+}
+
+.barras4{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    animation: color1 4s ease-in-out 3.5s infinite;
+}
+
+.barras5{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    animation: color1 4s ease-in-out 4s infinite;
+}
+
+.barras6{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    animation: color1 4s ease-in-out 4.5s infinite;
+}
+
+.barras7{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    animation: color1 4s ease-in-out 5s infinite;
+}
+
+.barras8{
+    width: 100px;
+    height: 300px;
+    position: relative;
+    animation: color1 4s ease-in-out 5.5s infinite;
+}
+  
+
+
+.color{
+    height: 50px;
+    
+}
+
+.color1{
+    background-color:#770088;
+}
+.color2{
+    background-color:#004CFF;
+}
+.color3{
+    background-color:#028121;
+}
+.color4{
+    background-color:#FFEE00;
+}
+.color5{
+    background-color:#FF8D00;
+}
+.color6{
+    background-color:#E50000;
+}
+
+@keyframes color1{
+  0%   {transform:translateY(0px);}
+  15%  {transform:translateY(10px);}
+  20%  {transform:translateY(15px);}
+  25%  {transform:translateY(20px);}
+  30%  {transform:translateY(25px);}
+  35%  {transform:translateY(30px);}
+  40%  {transform:translateY(35px);}
+  45%  {transform:translateY(40px);}
+  50%  {transform:translateY(45px);}
+  55%  {transform:translateY(50px);}
+  60%  {transform:translateY(55px);}
+  65%  {transform:translateY(60px);}
+  70%  {transform:translateY(65px);}
+  75%  {transform:translateY(70px);}
+  80%  {transform:translateY(75px);}
+  85%  {transform:translateY(80px);}
+  90%  {transform:translateY(85px);}
+  95%  {transform:translateY(95px);}
+  100% {transform:translateY(100px);}
+  }
